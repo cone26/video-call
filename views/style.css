@@ -1,0 +1,41 @@
+html {
+  margin: 0;
+}
+#myVideo {
+  width: 100%;
+  height: 100%;
+}
+#otherVideo {
+  position: absolute;
+  background-color: #b6e388;
+  top: 3%;
+  left: 2%;
+  width: 400px;
+  height: 230px;
+  border-radius: 25px;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  position: absolute;
+  bottom: 20px;
+  left: 43%;
+}
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 15px;
+  border: none;
+}
+#camera {
+  background-color: #fbf2cf;
+}
+#mic {
+  background-color: #fbf2cf;
+}
+#quit {
+  background-color: #fa7070;
+}
